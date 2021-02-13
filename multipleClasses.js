@@ -4,7 +4,7 @@ function multipleClasses(...genericClasses) {
             Don't use this multiple extender if you're extending only one class.
         `);
 	}
-	
+
 	function copyAndSetProps(toBeSetted, toBeCopied) {
 		Object.getOwnPropertyNames(toBeCopied)
 			.concat(Object.getOwnPropertySymbols(toBeCopied))
